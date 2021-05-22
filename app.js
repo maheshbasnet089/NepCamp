@@ -21,7 +21,7 @@ const reviewRoutes = require('./routes/reviews');
 
 const MongoDBStore = require("connect-mongo")(session);
 
-const dbUrl = process.env.DB_URL || 'mongodb+srv://manish:Immanish12@cluster0.s1tb4.mongodb.net/NepCamp?retryWrites=true&w=majority';
+const dbUrl = process.env.DB_URL || '';
 
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
