@@ -1,0 +1,52 @@
+#cluster-map {
+    width: 100%;
+    height: 500px;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+img { 
+    transition: transform .2s;
+
+}
+img:hover{
+    transform: scale(1.1);
+    border:2px solid yellowgreen
+
+}
+.btn-primary{
+    background-color: chartreuse !important;
+
+}
+
+.review {
+    font-style: italic;
+}
+::selection{
+    color:chartreuse
+}
+h5 { 
+    color : chartreuse
+}
+
+h6 { 
+    color:darkcyan;
+    font-weight: bold;
+    text-decoration: overline;
+}
+#indexHeading{
+    color:chartreuse;
+ 
+    outline: 0.4rem solid chartreuse;
+  
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem 0;
+    padding: 1rem;
+
+}
+
+
+
